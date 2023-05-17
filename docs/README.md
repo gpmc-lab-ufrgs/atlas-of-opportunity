@@ -16,6 +16,15 @@ cd atlas-backend
 docker compose up -d
 ```
 
+```
+git clone https://github.com/gpmc-lab-ufrgs/atlas.git
+cd atlas-frontend
+yarn
+yarn start
+```
+
+To full instructions see the README file in atlas-backend and atlas-front-end repository.
+
 Building the Docker images only needs to happen once but will likely take several minutes to complete. Running the project for the first time includes database imports, precomputation of some models, and compilation of the frontend for development mode which will also likely take several minutes.
 
 When all of the containers have finished starting up, a development version of the frontend should be reachable at http://localhost:3000/, the backend at http://localhost:8000/, and the database at http://localhost:5432/.
@@ -24,7 +33,7 @@ When all of the containers have finished starting up, a development version of t
 
 The recommended setup for production environments is a high-availability, managed database and redundant machines for the frontend and backend, all proxied behind a load balancer. MIT Connection Science uses AWS for its own production deployment of the Atlas, but that is not an endorsement of AWS over other hosting solutions.
 
-## Uploading Datasets
+## Uploading Spreadsheets
 
 To load dictionary and data spreadsheets into the database, go to http://...:3000/loaddata and fill in the form. Authentication is required. Each worksheet must have a data tab named 'atlas'. When the upload is complete, you will receive an email with the status of the upload and an on-screen message.
 
