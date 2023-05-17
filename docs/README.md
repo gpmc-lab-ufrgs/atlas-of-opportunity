@@ -23,7 +23,7 @@ yarn
 yarn start
 ```
 
-To full instructions see the README file in atlas-backend and atlas-front-end repository.
+To full instructions see the README file in [atlas-backend](https://github.com/gpmc-lab-ufrgs/atlas-backend/tree/189baf86ac397cda9270fd62e391ae8d928c7334) and atlas-front-end repository.
 
 Building the Docker images only needs to happen once but will likely take several minutes to complete. Running the project for the first time includes database imports, precomputation of some models, and compilation of the frontend for development mode which will also likely take several minutes.
 
