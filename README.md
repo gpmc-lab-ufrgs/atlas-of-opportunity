@@ -4,5 +4,4 @@ This project is part of a collaborative research initiative enabled by principal
 
 | ![atlas_screen](https://github.com/gpmc-lab-ufrgs/atlas-of-opportunity/assets/10273317/0ca8f08c-9ce6-4b42-bf7e-6dd2772f9cde) |  ![comp_screen](https://github.com/gpmc-lab-ufrgs/atlas-of-opportunity/assets/10273317/8d38168a-14da-4cfe-ab26-baaf415c43f8)
 |
-|:-|:-|
 |Overview|Selected region|
