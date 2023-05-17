@@ -1,8 +1,10 @@
 [submodule "atlas-backend"]
     path = atlas-backend
     url = https://github.com/gpmc-lab-ufrgs/atlas-backend.git
+    branch = demori_branch
 
 [submodule "atlas-frontend"]
     path = atlas-frontend
     url = https://github.com/gpmc-lab-ufrgs/atlas.git
+    branch = demori_branch
 
