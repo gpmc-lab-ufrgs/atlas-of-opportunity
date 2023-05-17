@@ -2,7 +2,7 @@
     path = atlas-backend
     url = https://github.com/gpmc-lab-ufrgs/atlas-backend.git
 
-[submodule "atlas-front-end"]
-    path = atlas-front-end
+[submodule "atlas-frontend"]
+    path = atlas-frontend
     url = https://github.com/gpmc-lab-ufrgs/atlas.git
 
