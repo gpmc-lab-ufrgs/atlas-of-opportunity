@@ -6,3 +6,10 @@ This project is part of a collaborative research initiative enabled by principal
 |:---:|:---:|
 |Overview|Selected region|
 
+
+# Running the Atlas
+
+See the docs for full setup instructions.
+
+The recommended way to run the Atlas is via Docker Compose. For instructions on how to run each service locally, see their respective README files.
+
