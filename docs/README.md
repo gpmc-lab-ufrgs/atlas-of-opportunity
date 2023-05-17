@@ -10,7 +10,9 @@ The Atlas is dockerized software, meaning its services can be built and deployed
 
 The Atlas is configured to run in a development environment by default. To start a server with a default dataset, simply checkout the code from its repo on GitHub and build and run the project's default Docker Compose configuration:
 
+```
 git clone https://github.com/gpmc-lab-ufrgs/atlas-backend.git
 cd atlas-backend
 docker compose up -d
+```
 
