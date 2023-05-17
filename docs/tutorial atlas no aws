@@ -1,0 +1,34 @@
+Tutorial para colocar o atlas no AWS:
+
+sudo apt-get update
+sudo apt-get install npm
+
+após instalar o npm editar o arquivo package.json:
+
+"scripts": {
+  "start": "HOST=0.0.0.0 PORT=3000 vite --host <ip privado no aws>"
+  // other scripts
+}
+
+deletar node_modules:
+
+sudo rm -rf node_modules
+sudo rm yarn.lock
+
+clear Yarn cache:
+
+sudo yarn cache clean --force
+
+update yarn:
+
+sudo yarn set version latest
+
+instalar yarn:
+
+sudo yarn install
+
+ou 
+
+sudo yarn install --force
+
+sempre usar sudo nos comandos
